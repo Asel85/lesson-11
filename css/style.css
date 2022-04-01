@@ -1,0 +1,123 @@
+@import "null.css";
+
+body{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+    
+}
+.wrapper{
+    position: relative;
+}
+
+
+.header{
+    background:url(../img/big-image.jpg);
+    min-height: 800px;  
+}
+.header__conteiner{
+    margin: 0 auto;
+    max-width: 1020px;
+}
+.header__title{
+    padding-top: 280px;
+    max-width: 583px;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 48px;   
+}
+.header__button{
+    background-color: orangered;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    color: white;
+    align-items: center;
+    text-transform: uppercase;
+}
+.main{
+    background-color: #F5F5F5;
+    
+}
+.main::after{
+    content: "";
+    width: 201px;
+    height: 317px;
+    display: inline-block;
+    background: url(../img/Stylize\ Circles.svg) no-repeat;
+    position:absolute; 
+    top:611px;
+    left:1042px;
+}
+.main__conteiner{
+    max-width: 1030px;
+    
+}
+
+.main__box{
+    max-width: 1020px;
+    background-color: #5D62B5;
+    border-radius: 40px;
+    margin: 0 auto;
+    position: relative;
+    top:-80px;
+
+}
+.main__box::before{
+    content: "";
+    width: 553px;
+    height: 371px;
+    display: inline-block;
+    background: url(../img/shadow.png) no-repeat;
+    position: absolute;
+    left:50px;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+.main__sub-title{
+    padding-top: 100px;
+    padding-left: 87px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+}
+.main__sub-title::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../img/Overline\ Mark\ \(2\).svg) 0 6px/20px no-repeat;
+}
+.main__title{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+    max-width: 583px;
+    margin-bottom: 36px;
+    padding-left: 87px;
+    
+}
+.main__text{
+    line-height: 1.5;
+    padding-left: 87px;
+    margin-bottom: 54px;
+    max-width: 846px;
+    color: #F5F5F5;
+}
+.main__image{
+    padding-left: 80px;
+    position: relative;
+    bottom: -120px;
+    z-index: 5;
+
+}
+
